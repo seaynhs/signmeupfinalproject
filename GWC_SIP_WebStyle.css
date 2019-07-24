@@ -1,0 +1,63 @@
+#kj {
+    width: 30%;
+    height: auto;
+}
+
+#cy {
+    width: 35%;
+    height: auto;
+}
+
+#ar {
+    width: 35%;
+    height: auto;
+}
+
+
+#ltmphoto{
+  color: white;
+}
+
+body {
+  background-image: url("sunset.jpg");
+  background-repeat: repeat-y;
+  background-position: center;
+  background-size: cover;
+  color: #E5E7E9;
+}
+h1 {
+  font-size: 500
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #73C6B6;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #A2D9CE;
+}
+
+@font-face {
+  font-family: cabinfont;
+  src:  url(Cabin-Regular-TTF.ttf) format("truetype");
+}
+
+body {
+  font-family: cabinfont;
+}
